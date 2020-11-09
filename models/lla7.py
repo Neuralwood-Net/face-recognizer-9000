@@ -49,7 +49,7 @@ class FleetwoodNet7V1(nn.Module):
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
         x = self.classifier(x)
-        return F.softmax(x, dim=1)
+        return x
 
     def _initialize_weights(self):
         for m in self.modules():
