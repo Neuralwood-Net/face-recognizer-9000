@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Exclude data files
+data
+
+# Service account credentials
+TDT4173 Deep Learning Project-91d3b469375c.json

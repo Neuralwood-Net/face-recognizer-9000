@@ -4,7 +4,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 
 
-class FleetwoodNet11V1(nn.Module):
+class FleetwoodNet7V1(nn.Module):
     def __init__(
         self,
         num_classes,
