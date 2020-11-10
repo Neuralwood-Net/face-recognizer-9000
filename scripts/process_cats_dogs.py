@@ -42,9 +42,7 @@ class CatsDogs:
 
             h, w = img.shape
 
-            h, w = (90, 100)
-
-            img = img[int(max(h-w, 0) / 2):h-int(max(h-w, 0) / 2), int(max(w-h, 0) / 2):h-int(max(w-h, 0) / 2)]
+            img = img[int(max(h-w, 0) / 2):h-int(max(h-w, 0) / 2), int(max(w-h, 0) / 2):w-int(max(w-h, 0) / 2)]
             img = cv2.resize(img, (self.IMG_SIZE, self.IMG_SIZE))
 
             label, f = path.split(os.path.sep)[-2:]
