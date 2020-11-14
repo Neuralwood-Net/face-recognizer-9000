@@ -20,7 +20,7 @@ def draw_bounding_boxes(img, bounding_boxes):
             (bounding_box[0], bounding_box[1]),
             (bounding_box[0] + bounding_box[2], bounding_box[1] + bounding_box[3]),
             (255, 255, 255),
-            10,
+            3,
         )
     return img
 
@@ -45,7 +45,7 @@ def crop_by_bounding_box(img, detector, bounding_box=None, vertical_expand=0.05)
         width += x
         x = 0
 
-    # Expand bounding box vertically by vertical_expand % in each direction
+    # Expand bounding box vertically by vertical_expand % of bb height in each direction
     # Move y-coord of top-left corner upwards
     old_y = y
     y = max(y - int(vertical_expand * height), 0)
@@ -132,7 +132,7 @@ def draw_class_names(display_image, bounding_boxes, pred_probs, pred_labels):
 
         cv2.putText(
             display_image,
-            f"{label}, {prob*100:.2f}%",
+            f"{label}: {prob*100:.2f}%",
             (x, y + height + 40),
             font,
             fontScale,
