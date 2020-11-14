@@ -10,9 +10,9 @@ from .utils import get_unique_predictions
 class Recognizer:
     def __init__(self):
         data = torch.load(
-            "demo/recognizer/SqueezeNet-1605361529.9021263_cropped.data",
+            "models/SqueezeNet-1605361529.9021263_cropped.data",
             map_location=torch.device("cpu"),
-        )
+        )  # run demo from face.recognizer-9000/
 
         squeezenet = models.squeezenet1_1()
         in_chl = squeezenet.classifier[1].in_channels

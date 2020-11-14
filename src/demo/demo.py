@@ -15,7 +15,7 @@ class Demo:
         self.allow_duplicate_predictions = True
 
     def run_demo(self):
-        print("Starting demo")
+        print("Starting demo...")
 
         while True:
             # Capture frame-by-frame
