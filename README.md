@@ -3,7 +3,7 @@ Project repository for the group project in NTNU course TDT4173 - Machine Learni
 
 Made by Lars Ankile, Morgan Heggland and Kjartan Krange.
 
-![Image of WoodNet](https://i.imgur.com/Es7QjIj.png)
+![Image of WoodNet](https://i.imgur.com/8PsWjr8.png)
 
 # Setup
 - Most of the code is run in notebooks using virtual machines and require no setup other than access to a virtual machine (e.g. Google Colab or Google Cloud VMs). The notebooks can be found in `notebooks`, containing both data pre-processing and model implementation and training.
@@ -26,12 +26,12 @@ The data used to train the models in this repository (beyond pre-trained models 
 - `models` - Storage of built, persisted models used in the project.
   - `model_1`
   - ...
-- (`results`) - Documentation of how the models are performing on the datasets, including metrics such as precision, recall, f1-measure etc.
+- `results` - Documentation of how the models are performing on the datasets, including metrics such as precision, recall, f1-measure etc.
   - `model_1`
   - ...
 - `notebooks` - Notebooks used for testing, data exploration etc.
 - `src` - The core source code for the project.
-  - `scripts` - Group of scripts that handle processing of the data.
+  - `preprocessing` - Group of scripts that handle processing of the data.
   - `models` - Source code for building the models.
   - `demo` - Directory containing implementation of a live classification demo using a connected webcam feed.
-  - (`visualization`) - Code for visualization for evaluation of models.
+  - `visualization` - Code for visualization for evaluation of models.
