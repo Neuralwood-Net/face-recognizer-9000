@@ -134,3 +134,6 @@ data
 
 # Service account credentials
 TDT4173 Deep Learning Project-91d3b469375c.json
+
+# OSX Files
+.DS_Store
