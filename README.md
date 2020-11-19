@@ -1,9 +1,12 @@
-# face-recognizer-9000
-Project repository for the group project in NTNU course TDT4173 - Machine Learning, Fall 2020. The `face-regognizer-9000` is a Convolutional Neural Network trained for facial recognition, for use in entry access control. 
+# woodnet
+Project repository for the group project in NTNU course TDT4173 - Machine Learning, Fall 2020. WoodNet¹ is a Convolutional Neural Network trained for facial recognition, for use in entry access control. 
 
 Made by Lars Ankile, Morgan Heggland and Kjartan Krange.
 
 ![Image of WoodNet](https://i.imgur.com/8PsWjr8.png)
+
+¹The network is named after Fleetwood Mac, as one of the authors recently discovered their enchanting tunes².  
+²The other authors have been acquainted with Fleetwood Mac for a while.
 
 # Setup
 - The code used to process the data and train the models is run in notebooks using virtual machines and require no setup other than access to a virtual machine (e.g. Google Colab or Google Cloud VMs). The notebooks can be found in `notebooks`, containing both data pre-processing (`data-extraction.ipynb`) and model implementation and training (`Train_plot_and_save_224px_color.ipynb`).
