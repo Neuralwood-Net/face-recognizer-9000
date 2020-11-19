@@ -9,7 +9,7 @@ Made by Lars Ankile, Morgan Heggland and Kjartan Krange.
 ²The other authors have been acquainted with Fleetwood Mac for a while.
 
 # Setup
-- The code used to process the data and train the models is run in notebooks using virtual machines and require no setup other than access to a virtual machine (e.g. Google Colab or Google Cloud VMs). The notebooks can be found in `notebooks`, containing both data pre-processing (`data-extraction.ipynb`) and model implementation and training (`Train_plot_and_save_224px_color.ipynb`).
+The code used to process the data and train the models is run in notebooks using virtual machines and require no setup other than access to a virtual machine (e.g. Google Colab or Google Cloud VMs). The notebooks can be found in `notebooks`, containing both data pre-processing (`data-extraction.ipynb`) and model implementation and training (`Train_plot_and_save_224px_color.ipynb`).
 
 
 ## Live webcam demo setup
