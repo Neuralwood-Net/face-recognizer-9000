@@ -1,4 +1,4 @@
-# woodnet
+# WoodNet
 Project repository for the group project in NTNU course TDT4173 - Machine Learning, Fall 2020. WoodNet¹ is a Convolutional Neural Network trained for facial recognition, for use in entry access control. 
 
 Made by Lars Ankile, Morgan Heggland and Kjartan Krange.
