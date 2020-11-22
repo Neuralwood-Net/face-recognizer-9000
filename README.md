@@ -1,5 +1,5 @@
 # WoodNet
-Project repository for the group project in NTNU course TDT4173 - Machine Learning, Fall 2020. WoodNet¹ is a Convolutional Neural Network trained for facial recognition, for use in entry access control. 
+Project repository for the group project in NTNU course TDT4173 - Machine Learning, Fall 2020. WoodNet¹ is a Convolutional Neural Network trained for facial recognition, for use in entry access control. See [this video explaining the project](https://www.youtube.com/watch?v=EOOOq1k8TvE).
 
 Made by Lars Ankile, Morgan Heggland and Kjartan Krange.
 
@@ -23,7 +23,7 @@ To run the accompanying live inference demo, follow the steps below:
 
 Note: the demo runs on CPU and thus run with a rather limited framerate. It is possible to run on GPU by editing the code where the facial recognition model is loaded in `recognizer.py`. This requires a GPU + CUDA installed and pyTorch configured for GPU, and is not tested.
 
-PS: the demo attempts to classify faces present in the webcam according to one of the clases `Lars`, `Morgan`, `Kjartan`and `Other`. In a perfect world, this would require one of the authors to be present when you run the demo in order for it to predict anything other than `Other`.
+PS: the demo attempts to classify faces present in the webcam according to one of the clases `Lars`, `Morgan`, `Kjartan`and `Other`. In a perfect world, this would require one of the authors to be present when you run the demo in order for it to predict anything other than `Other`. However, as the models are not perfect, this is not always the case.
 
 # Data
 The data used to train the models in this repository (beyond pre-trained models used for transfer learning) have been collected by the authors and is stored in Google Cloud Storage: 
