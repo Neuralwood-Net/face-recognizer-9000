@@ -16,8 +16,8 @@ The code used to process the data and train the models is run in notebooks using
 To run the accompanying live inference demo, follow the steps below:
 - Clone the repo using `git clone`
 - Enter the project directory with `cd woodnet`
-- Install a virtual environment for the project:`python3 -m venv /path/to/new/virtual/environment`
-- Activate virtual environment with`source /path/to/new/virtual/environment/bin/activate`
+- Install a virtual environment for the project:`python3 -m venv venv`
+- Activate virtual environment with`source venv/bin/activate`
 - Install depenencies needed to run the demo with `pip install -r src/demo/requirements.txt`
 - Start the demo by running`python3 src/demo/demo.py` (requires a camera connected to the computer)
 
